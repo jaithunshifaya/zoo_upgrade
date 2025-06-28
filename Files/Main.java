@@ -60,7 +60,6 @@ public class Main {
                         menuChoice = animalDetailsManipulationMenu(keyboard, dolphinObject);
                         switch (menuChoice) {
                             case 1:
-                                // clear issues with reading strings after numbers
                                 keyboard.nextLine();
                                 System.out.println("Enter the color of the dolphin:");
                                 dolphinObject.setColor(keyboard.nextLine());
