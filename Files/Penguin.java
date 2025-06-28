@@ -1,5 +1,3 @@
-
-
 public class Penguin extends Animal implements Walk, Swim {
     private static final long serialVersionUID =1L;
 
